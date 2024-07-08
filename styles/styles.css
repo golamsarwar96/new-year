@@ -330,3 +330,45 @@ section{
     background-repeat: no-repeat,no-repeat,no-repeat;
     background-position: left, bottom, top right;
 }
+
+/* gifts section */
+
+.gifts{
+    display: block;
+}
+
+.gifts h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin : 100px 0 0 0;
+}
+
+.gifts h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: capitalize;
+    margin : 15px 0 20px 0;
+}
+
+.gifts p{
+    width : 55%;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.gift-container{
+    margin-top : 50px;
+}
+
+.gift-container img{
+    margin : 0 6px 7px 6px;
+}
