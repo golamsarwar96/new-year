@@ -334,7 +334,9 @@ section{
 /* gifts section */
 
 .gifts{
+    height: 1185px;
     display: block;
+    border : 2px solid black;
 }
 
 .gifts h5{
@@ -343,7 +345,8 @@ section{
     font-size: 24px;
     font-weight: 500;
     text-align: left;
-    margin : 100px 0 0 0;
+    margin : 50px 0 0 0;
+    border : 2px solid black;
 }
 
 .gifts h1{
@@ -354,6 +357,7 @@ section{
     text-align: left;
     text-transform: capitalize;
     margin : 15px 0 20px 0;
+    border : 2px solid black;
 }
 
 .gifts p{
@@ -363,6 +367,7 @@ section{
     font-size: 16px;
     font-weight: 400;
     text-align: left;
+    border : 2px solid black;
 }
 
 .gift-container{
@@ -370,5 +375,5 @@ section{
 }
 
 .gift-container img{
-    margin : 0 6px 7px 6px;
+    margin : 0 6px 6px 6px;
 }
