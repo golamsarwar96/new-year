@@ -418,9 +418,38 @@ section{
     text-align: center;
 }
 
-input[type="email"], input[type="submit"]{
-    text-decoration: none;
+.subscribe-container {
+    display: flex;
+    width: 450px;
+    height: 50px;
+  }
+  
+  .email-input {
+    font-family: Inter;
+    flex-grow: 1;
+    padding: 10px 15px;
+    border-right: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 14px;
     border: none;
-    margin : 0;
-    padding : 0;
-}
+  }
+  
+  .subscribe-button {
+    background-color: #ff0000;
+    font-family: Inter;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #d60000;
+  }
