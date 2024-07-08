@@ -279,3 +279,54 @@ section{
     font-weight: 400;
     text-align: left;
 }
+
+
+/* sales styles */
+.sales{
+    height: 40vh;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sales-container{
+    width:650px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sales-subheader{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin : 20px 0 20px 0;
+}
+
+.sales-header{
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin : 0;
+}
+
+.sales-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin : 30px 0 0 0;
+}
+
+.picture{
+    background-image: url('../images/Group\ 75.png'), url('../images/Rectangle\ 2.png'), url('../images/Group\ 44.png');
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: left, bottom, top right;
+}
