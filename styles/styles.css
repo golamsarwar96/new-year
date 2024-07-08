@@ -39,6 +39,7 @@ main{
     bottom: -50px;
 }
 
+/* New year style */
 section{
     height: 90vh;
     display: flex;
@@ -76,4 +77,96 @@ section{
     letter-spacing: 0%;
     text-align: center;
     margin: 20px 0px 0px 0px;
+}
+
+/* Offer style */
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin : 50px 0 0 0;
+}
+
+.offer-header{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.offer-description{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0;
+}
+
+.offer-category{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+
+/* Party Styles */
+.party{
+    width : 697px;
+    padding-right: 20px;
+}
+
+.party-container{
+    background-image: url(/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    display: flex;
+    gap : 30px;
+    margin-top: 100px;
+}
+
+.party-container img{
+    width : 320px;
+}
+
+.party-header{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin : 0;
+}
+
+.party-description{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.party button{
+    text-decoration: none;
+    background: transparent;
+    color:white;
+    border : none;
+    padding : 14px 16px;
+    font-size: 20px;
+    cursor: pointer;
 }
